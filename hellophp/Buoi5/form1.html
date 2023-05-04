@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style type="text/css">
+        #div_tong {
+            /* background-color: pink; */
+            width: 100%;
+            height: 800px;
+        }
+
+        #div_tren {
+            /* background-color: antiquewhite; */
+            width: 100%;
+            height: 10%;
+        }
+
+        #div_tren>.trai {
+            width: 50%;
+            /* background-color: blueviolet; */
+            height: 100%;
+            float: left;
+        }
+
+        #div_tren>.phai {
+            /* background-color: aquamarine; */
+            width: 50%;
+            height: 100%;
+            float: left;
+
+        }
+
+        #div_tren>.phai>.tren {
+            text-align: right;
+        }
+
+        #div_tren>.phai>.duoi {
+            right: 10px;
+            position: absolute;
+            top: 70px
+        }
+
+        #div_duoi {
+            /* background-color: cadetblue; */
+            height: 90%;
+            width: 100%;
+            border-style: solid;
+            border-color: green;
+        }
+
+        #div_duoi>.trai {
+            background-color: #9ccc9c;
+            height: 100%;
+            width: 20%;
+            float: left;
+
+        }
+
+        #div_duoi>.trai>.duoi {
+            position: absolute;
+            bottom: 10px;
+            left: 60px;
+        }
+
+        #div_duoi>.trai>.giua {
+            position: absolute;
+            bottom: 400px;
+            left: 300px;
+        }
+
+        #div_duoi>.giua {
+            /* background-color: cadetblue;  */
+            width: 65%;
+            height: 100%;
+            float: left;
+        }
+
+        #div_duoi>.giua>.trai {
+            /* background-color: cadetblue; */
+            float: left;
+            width: 10%;
+            height: 100%;
+        }
+
+        #div_duoi>.giua>.phai {
+            /* background-color: burlywood; */
+            float: left;
+            width: 90%;
+            height: 100%;
+            text-align: left;
+        }
+
+        #div_duoi>.giua>.phai>.giua>.tren {
+            /* background-color: burlywood; */
+
+            width: 40%;
+            height: 45%;
+            float: right;
+            text-align: center;
+        }
+
+        #div_duoi>.giua>.phai>.giua>.trai {
+
+            float: left;
+            text-align: right;
+        }
+        #div_duoi>.phai{
+            width: 15%;
+            height: 100%;
+                        float: left;
+
+        }
+
+        #div_duoi>.phai>.tren{
+            width: 100%;
+            height: 25%;
+        }
+
+        #div_duoi>.phai>.tren>.tren{
+            background-color: #5b8c5e;
+            width: 100%;
+            height: 10%;
+            text-align: center;
+            
+        }
+        #div_duoi>.phai>.tren>.giua{
+            background-color: #9edb9c;
+            width: 100%;
+            height: 80%;
+            text-align: center;
+            
+        }
+        #div_duoi>.phai>.tren>.duoi{
+            background-color: #9edb9c;
+     
+            width: 100%;
+            height: 10%;
+            text-align: center;
+            
+        }
+
+        #div_duoi>.phai>.duoi{
+            width: 100%;
+            height: 75%;
+            text-align: center;
+        }
+        #div_duoi>.phai>.duoi>.trai{
+            
+			height: 100%;
+			border-left: 5px dotted green; 
+			float: left;
+        }
+
+        #div_duoi>.phai>.duoi>.phai{
+            
+            width: 60%;
+			height: 80%;
+			position: absolute;
+            top: 350px;
+            left: 950px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div_tong">
+
+        <div id="div_tren">
+
+            <div class="trai">
+                <img src="https://vothanhloi.github.io/codecoban/images/logo.gif" alt="Ảnh hoa lá cành">
+            </div>
+
+            <div class="phai">
+
+                <div class="tren">
+                    <select>
+                        <option>Hội hoa Lan & Cây cảnh TPHCM</option>
+                        <option>Hội hoa Dâm bụt & Cây cảnh TPHCM</option>
+                        <option>Hội hoa Mười giờ & Cây cảnh TPHCM</option>
+                    </select>
+                    <button>go</button>
+                </div>
+
+                <div class="duoi">
+                    <img src="https://caotaytang.github.io/J2School/CSS/buoi1/Hoa%20Canh/%E1%BA%A2nh/n_hoavacc.gif"
+                        alt="danh sach">
+                    <img src="https://vothanhloi.github.io/codecoban/images/n_ttuc.gif" alt="">
+                    <img src="https://vothanhloi.github.io/codecoban/images/n_hopthu.gif" alt="">
+                    <img src="https://vothanhloi.github.io/codecoban/images/n_hvien.gif" alt="">
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div id="div_duoi">
+
+            <div class="trai">
+
+                <div class="tren">
+                    <img src="https://caotaytang.github.io/J2School/CSS/buoi1/Hoa%20Canh/%E1%BA%A2nh/tintuc_bientrai.gif"
+                        alt="" style="width: 80%; height: 170px;">
+                </div>
+
+                <div class="duoi">
+                    <img src="https://vothanhloi.github.io/codecoban/images/Hoavang.gif" alt="Ảnh bình hoa">
+                </div>
+                <div class="giua">
+                    <img src="https://vothanhloi.github.io/codecoban/images/buom1.gif" alt="anh buom" width="130%">
+                </div>
+
+            </div>
+
+            <div class="giua">
+                <div class="trai" align="center">
+                    <font>
+                        <img src="https://vothanhloi.github.io/codecoban/images/mau.jpg" alt="bướm" >
+                    </font>
+                </div>
+
+                <div class="phai">
+                    <div class="giua">
+                        <div class="trai"></div>
+                        <div class="tren">
+                            <img src="https://vothanhloi.github.io/codecoban/images/buom4.gif" alt="">
+
+                        </div>
+                        <font size="5">
+                            <b>
+                                Muôn hoa đua sắc
+                            </b>
+                        </font>
+                        <br><br><br>
+                        Đã là hoa thì hoa nào cũng đẹp. Kể từ những đoá hoa dân dã giản dị bình thường. Hoa sim, hoa mua
+                        tím
+                        biếc sườn đồi. Hoa cà tím biếc vườn quê. Hoa lục bình tím biếc trên dòng sông. Hoa súng tím biếc
+                        ao
+                        làng. Hoa xoan tím biếc những chiều xóm vắng…. Hoa gạo đỏ đầu làng, hoa phượng đỏ trời góc phố.
+                        Hoa
+                        mào
+                        gà, hoa dong riềng đỏ góc vườn ai. Hoa cau, hoa dừa trắng phau lưng trời. Những loài hoa dân giả
+                        muôn
+                        màu muôn sắc cũng đẹp huống chi là các loài hoa quý phái.
+                        <br><br>
+                        Một trong những loài hoa quý phái là hoa lan. "Vua thưởng lan, quan thưởng trà". Cái hương lan -
+                        "
+                        cái
+                        hương thuỷ quái gì mà mê đắm lòng người đến thế". Phong lan thơm sực nức, nồng nàn, gần gũi. Địa
+                        lan
+                        thanh cao, nhẹ nhõm, lúc thắm thiết, sực nức, lúc nhạt nhoà xa xăm. Đoá bạch ngọc khi nở có màu
+                        sáng
+                        như
+                        chiếc hài của thần vệ nữ tự ngày xưa.
+                        <br><br>
+                        Hoa mai có nhiều loài. Từ ngũ đài hoa - năm cánh vàng rực rỡ đến hoàng tỉ trên 30 cánh. Hoa mai
+                        đẹp
+                        từ
+                        gốc đến cành, sống lâu bền, xếp vào hàng cổ thụ "lão mai độc thọ nhất chi vinh" (thơ cổ). Hoa
+                        mai
+                        không
+                        phô sắc hương mà khiêm tốn dịu dàng, tượng trưng cho cốt cách của người quân tử, chịu được cái
+                        giá
+                        rét
+                        của mùa đông để nở vào một sớm xuân hồng.
+                        <br><br>
+                        Hoa cúc vàng trong hàng tứ quý " tùng, cúc, trúc, mai" tượng trưng cho mặt trời, cho quyền lực.
+                        Cúc
+                        đại
+                        đoá bông to, cành cong lộng lẫy sang trọng, cúc vạn thọ giản dị, bền lâu. Hoa cúc là loại "diệp
+                        bất
+                        li
+                        chi, hoa vô lạc địa", lá cúc không bao giờ rời khỏi cành dẫu đã héo khô, hoa tàn cánh không rụng
+                        như
+                        người quân tử không xa rời lý tưởng.
+                        <br><br>
+                        Loài hao mang biểu tượng của mùa xuân là hoa đào. Những cánh hoa đào rưng rưng khoe sắc, màu
+                        hồng
+                        phơn
+                        phớt hay hồng đậm xen trong lá non như vẻ e ấp ngại ngùng như người thiếu nữ. Hoa đào như muôn
+                        cánh
+                        bướm
+                        hồng rung rinh trong gió, khoe sắc trong nắng xuân.
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="phai">
+                
+                <div class="tren">
+                    <div>
+                        <img src="https://vothanhloi.github.io/codecoban/images/thamgia.gif" width="100%" height="100%">
+                    </div>
+                    <div class="giua">
+                        Họ tên <br>
+                        <input type="text" width="60%"><br>
+                        Mã số <br>
+                        <input type="text" width="60%"><br>
+                        <br>
+                        <input type="image" src="https://vothanhloi.github.io/codecoban/images/ok.gif" alt="Submit" style="width: 50%">
+                    </div>
+                    <div class="duoi">
+                        <img src="https://vothanhloi.github.io/codecoban/images/quen.gif" width="100%">
+                    </div>
+                </div>
+
+                <div class="duoi">
+                    <div class="trai">
+                    </div>
+
+                    <div class="phai">
+                        <img src="https://vothanhloi.github.io/codecoban/images/h2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
