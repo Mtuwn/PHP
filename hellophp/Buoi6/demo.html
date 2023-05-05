@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Những điều xàm:></title>
+    <style>
+        body {
+            background-image: url(./a3.jpg);
+            background-repeat: no-repeat;
+            background-size: 1600px 1700px;
+            background-attachment: fixed;
+        }
+
+        #div_tong {
+            width: 100%;
+            height: 760px;
+            position: relative;
+        }
+
+        #menu {
+            position: fixed;
+            left: -14px;
+            top: 10px;
+            box-sizing: border-box;
+            opacity: 80%;
+            z-index: 99;
+        }
+
+        #menu ul {
+            position: absolute;
+            visibility: hidden;
+            background-color: #242526;
+            width: 150px;
+            height: 40pxs;
+            left: 38px;
+            padding: 2px;
+            border: solid 2px white;
+
+        }
+
+        #menu li:hover ul {
+            visibility: visible;
+        }
+
+        a {
+            text-decoration: none;
+            color: cornsilk;
+        }
+
+        .icon_menu {
+            position: relative;
+            top: 22px;
+        }
+
+        #trai {
+            width: 30%;
+            height: 100%;
+            background-image: url(./a4.jpg );
+            background-size: cover;
+            background-attachment: fixed;
+            float: left;
+        }
+
+        #trai>.tren {
+            width: 100%;
+            height: 30%;
+            text-align: center;
+            display: flex;
+            justify-content: center ;
+            align-items: flex-end;
+        }
+
+        /* .avt{
+            position: absolute;
+            top: 30%;
+            left: 60px;
+        } */
+        #trai>.duoi {
+            width: 100%;
+            height: 70%;
+        }
+
+        #trai>.duoi>.media {
+            width: 100%;
+            height: 30%;
+            text-align: center;
+        }
+
+        #trai>.duoi>.media a:hover {
+            height: +10;
+            width: +10;
+            font-size: 20px;
+        }
+
+        .button1 {
+            margin: 10px;
+            border: 2px solid white;
+            text-align: center;
+            float: left;
+            font-size: 12px;
+            width: 28%;
+        }
+
+        .music{
+            position: flex;
+            bottom: 20px;
+        }
+
+        #phai{
+            width: 70%;
+            height: 100%;
+            float: right;
+        }
+        #phai img {
+            width: auto;
+            height: 300px;
+            margin: 1%;
+        }
+        #phai img:hover{
+            transform: scale(1.5);
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div id="div_tong">
+        <div id="menu">
+            <li>
+                <img class="icon_menu" src="https://ntd1683.github.io/hocweb/picture/icon_nav.png" alt="menu">
+                <ul type="none">
+                    <a href="#">Trang chủ</a><br>
+                    <a target="_blank" href="https://www.facebook.com/tuan.tranminh.1865904/">Tran minh tuan</a><br>
+                    <a target="_blank" href="https://zingmp3.vn/">Zing mp3</a>
+                </ul>
+            </li>
+        </div>
+        <div id="trai">
+            <div class=" tren">
+
+                <a href="https://www.facebook.com/tuan.tranminh.1865904/">
+                    <img class="avt"
+                        src="https://scontent.fthd1-1.fna.fbcdn.net/v/t1.6435-9/172373018_1461794470824681_4570310840627665138_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=lD8gE_zuuUIAX_WQqPJ&_nc_ht=scontent.fthd1-1.fna&oh=00_AfBzjNSMul57xqactqZcpk0YyLTK6iQzpaME3p8zKi8XJg&oe=647BEC4C"
+                        alt="avt" style="width: 
+                    60px; height: 60px ; border-radius: 50%;"><br>
+                    <p>
+                        <b>
+                            Trần Minh Tuấn <br>
+                        </b>
+                        Học tại Học viện Kỹ thuật mật mã - KMA <br>
+                        Sống tại Thanh Hóa <br>                 
+                    </p>
+                </a>
+
+            </div>
+            <div class="duoi">
+                <br><br><br>
+                <div class="media">
+                    <a target="_blank" href="https://www.facebook.com/tuan.tranminh.1865904/"
+                        class="button1">Facebook</a>
+                    <a target="_blank" href="https://www.instagram.com/mtuwsn01_03//" class="button1">Instagram</a>
+                    <a target="_blank" href="https://github.com/Mtuwn" class="button1">Github</a>
+
+                </div>
+                <div class="music">
+                    <iframe src="https://zingmp3.vn/embed/playlist/ZO69ZZI9" frameborder="0" allowfullscreen="true" width="100%" height="220px" ></iframe>
+                </div>
+            </div>
+        </div>
+        <div id="phai">
+            <img src="./a1.jpg" alt="">
+            <img src="./a2.jpg" alt="">
+            <img src="./a3.jpg" alt="">
+            <img src="./a11.jpg" alt="">
+            <img src="./a5.jpg" alt="">
+            <img src="./a6.jpg" alt="">
+            <img src="./a7.jpg" alt="">
+            <img src="./a9.jpg" alt="">
+            <img src="./a10.jpg" alt="">
+            <img src="./a8.jpg" alt="">
+            <img src="./a12.jpg" alt="">
+
+        </div>
+    </div>
+</body>
+
+</html>
